@@ -1,0 +1,861 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+/*---COVER PAGE---*/
+    #coverpage h2 {
+        font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: rgb(119, 119, 204);
+    text-shadow: 1px 1px
+    whitesmoke;
+    align-items: center;
+    text-align: center;
+    margin-top: 65%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-transform: uppercase;
+    
+    }
+        #coverpage .parent {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+        #coverpage .div1 { grid-area: 1 / 2 / 2 / 4; 
+            display: flex;    
+            background-image: url(Images/coverpageart.jpg);
+                width: 100%;
+                height: 100vh;
+                background-size: contain;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-position: center;
+                z-index: 1000;}
+        #coverpage .div2 { grid-area: 1 / 1 / 2 / 2; }
+        #coverpage .div3 { grid-area: 1 / 4 / 2 / 5; 
+    }
+    h6 {
+        color: transparent;
+    }
+
+    .pages1-2 {
+        width: 100%;
+        height: 100vh;
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 1s;
+    flex-direction: column;
+    background-image: url(Images/startbutton.png);
+        width: 100%;
+                height: 100vh;
+                background-size: contain;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-position: center;
+    }
+   .div3 :hover {
+        background-color: aliceblue;
+    }
+    .div2 :hover {
+        background-color: aliceblue;
+    }
+
+    /*---END PAGE---*/
+#endpage .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+#endpage .div1 { grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/endpagebackground.jpg);
+    display: flex;    
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1000;}
+#endpage .div2 { grid-area: 1 / 1 / 2 / 2; }
+#endpage .div3 { grid-area: 1 / 4 / 2 / 5; 
+}
+.startover {
+    width: 100%;
+    height: 100vh;
+    color: white;
+text-decoration: none;
+text-align: center;
+width: 100%;
+height: 100%;
+display: flex;
+transition: all 1s;
+flex-direction: column;
+background-image: url(Images/readagainbutton.png);
+    width: 100%;
+            height: 100vh;
+            background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+}
+
+#endpage h2 {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: rgb(119, 119, 204);
+    text-shadow: 1px 1px
+    whitesmoke;
+    align-items: center;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-transform: uppercase;
+}
+#endpage .back {
+    width: 100%;
+    height: 100vh;
+    color: white;
+text-decoration: none;
+text-align: center;
+width: 100%;
+height: 100%;
+display: flex;
+transition: all 1s;
+flex-direction: column;
+background-image: url(Images/backbutton.png);
+    width: 100%;
+            height: 100vh;
+            background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+}
+
+/*---OVERALL PAGE LAYOUT*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+/*---PAGES 1+2---*/
+    #pages1-2 .div1 { 
+        grid-area: 1 / 2 / 2 / 4; 
+        background-image: url(Images/page1art.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+        margin: 0;
+    }
+    #pages1-2 .div2 { 
+        grid-area: 1 / 4 / 2 / 6;
+        background-image: url(Images/page2art.jpg);
+        width: 100%;
+        height: 100vh; 
+        background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+        margin: 0;
+    }
+
+    /*---PAGES 3+4---*/
+
+    #pages3-4 .div1 { 
+        grid-area: 1 / 2 / 2 / 4; 
+        background-image: url(Images/page3art.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+        margin: 0;
+    }
+    #pages3-4 .div2 { 
+        grid-area: 1 / 4 / 2 / 6;
+        background-image: url(Images/page4art.jpg);
+        width: 100%;
+        height: 100vh; 
+        background-size: contain;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-position: center;
+        margin: 0;
+    }
+
+/*---PAGES 5-6---*/
+#pages5-6 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page5art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages5-6 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page6art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 7-8---*/
+#pages7-8 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page7art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages7-8 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page8art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 9-10---*/
+#pages9-10 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page9art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages9-10 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page10art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 11-12---*/
+#pages11-12 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page11art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages11-12 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page12art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 13-14---*/
+#pages13-14 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page13art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages13-14 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page14art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 15-16---*/
+#pages15-16 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page15art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages15-16 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page16art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---PAGES 17-18---*/
+#pages17-18 .div1 { 
+    grid-area: 1 / 2 / 2 / 4; 
+    background-image: url(Images/page17art.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+#pages17-18 .div2 { 
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(Images/page18art.jpg);
+    width: 100%;
+    height: 100vh; 
+    background-size: contain;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+    margin: 0;
+}
+
+/*---End of Pages---*/
+   .div3 { 
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+    .div4 { 
+        grid-area: 1 / 6 / 2 / 7; 
+    }
+    .pages1-2 {
+        width: 100%;
+        height: 100vh;
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 1s;
+    flex-direction: column;
+    background-image: url(Images/startbutton.png);
+        width: 100%;
+                height: 100vh;
+                background-size: contain;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-position: center;
+    }
+    .page1 {
+        width: 100%;
+        height: 100vh;
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 1s;
+    flex-direction: column;
+    background-image: url(Images/backbutton.png);
+        width: 100%;
+                height: 100vh;
+                background-size: contain;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-position: center;
+    }
+    .page2 {
+        width: 100%;
+        height: 100vh;
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: all 1s;
+    flex-direction: column;
+    background-image: url(Images/nextbutton.png);
+        width: 100%;
+                height: 100vh;
+                background-size: contain;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                background-position: center;
+    }
+    .div3 :hover {
+        background-color: aliceblue;
+    }
+    .div4 :hover {
+        background-color: aliceblue;
+    }
+
+    /*---TEXT---*/
+    
+#pages1-2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-top: 32%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+#pages3-4 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 32px;
+      margin-top: 90%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+#pages3-4 .div1 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 34px;
+      margin-top: 32%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+#pages5-6 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-top: 35%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+#pages5-6 h3 {
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    color: rgb(232, 232, 255);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      margin-top: 32%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+#pages5-6 .div2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 24px;
+      margin-top: 35%;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+}
+#pages7-8  p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 35px;
+      margin-top: 35%;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+}
+#pages7-8 .div2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-top: 10%;
+      margin-bottom: 35%;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+}
+#pages7-8 h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+color: rgb(232, 232, 255);
+background-color: transparent;
+text-shadow: 2px 2px
+  black;
+  margin-top: 32%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+#pages9-10  p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+}
+#pages9-10 h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+color: rgb(232, 232, 255);
+background-color: transparent;
+text-shadow: 2px 2px
+  black;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#pages11-12  p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+  margin-top: 32%;
+  margin-bottom: 50%;
+}
+#pages11-12 h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+color: rgb(232, 232, 255);
+background-color: transparent;
+text-shadow: 2px 2px
+  black;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#pages11-12 .div2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 28px;
+      margin-left: 5%;
+      margin-right: 30%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+  margin-top: 32%;
+}
+#pages11-12 .div2 h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+color: rgb(232, 232, 255);
+background-color: transparent;
+text-shadow: 2px 2px
+  black;
+  margin-left: 40%;
+  margin-right: 28%;
+  text-align: center;
+  margin-top: -48%;
+  justify-content: center;
+  align-items: center;
+}
+#pages13-14  p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+  margin-top: 32%;
+  margin-bottom: 50%;
+}
+#pages13-14 h3 {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+color: rgb(232, 232, 255);
+background-color: transparent;
+text-shadow: 2px 2px
+  black;
+  margin-top: 32%;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#pages13-14 .div1 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+  margin-top: 32%;
+}
+#pages13-14 .div2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 40px;
+      margin-left: 50%;
+      margin-right: 10%;
+      text-align: center;
+      justify-content: center;
+  align-items: center;
+  margin-bottom: 50%;
+}
+#pages15-16  p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: left;
+      justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  margin-bottom: 50%;
+}
+#pages15-16  h2 {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: right;
+      justify-content: center;
+  align-items: center;
+  margin-top: 45%;
+}
+#pages15-16 .div1 h3 {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 20%;
+      margin-right: 10%;
+      text-align: right;
+      justify-content: center;
+    align-items: center;
+    margin-top: -19%;
+}
+#pages15-16  .div2 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 10%;
+      margin-right: 20%;
+      text-align: left;
+      justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  margin-bottom: 50%;
+}
+#pages15-16  .div2 h2 {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 30px;
+      margin-left: 35%;
+      margin-right: 20%;
+      text-align: right;
+      justify-content: center;
+  align-items: center;
+  margin-top: 55%;
+}
+#pages17-18 p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: bold;
+    color: rgb(255, 193, 193);
+    background-color: transparent;
+  text-shadow: 2px 2px
+      black;
+      font-size: 32px;
+      margin-top: 90%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
