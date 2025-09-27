@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 1%;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+h2 {
+    font-size: 42px;
+}
+h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+/*---GALLERY LAYOUT---*/
+#Gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 6px;
+    }
+    
+#Gallery img {
+    width: 75%;
+}
+    .frontdooroutside { grid-area: 2 / 2 / 3 / 3; }
+    .backwallnorth { grid-area: 1 / 2 / 2 / 3; }
+    .sidewallwest { grid-area: 2 / 1 / 3 / 2; }
+    .sidewalleast { grid-area: 2 / 3 / 3 / 4; }
+    .frontdoorinside { grid-area: 3 / 2 / 4 / 3; }
+
+/*---EXHIBITS---*/
+#Exhibits {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    padding: 1%;
+    }
+#Exhibits img {
+    width: 75%;
+}
+    
+.Theoexhibit { grid-area: 1 / 1 / 2 / 2; }
+.Jasperexhibit { grid-area: 1 / 2 / 2 / 3; }
+.Vivienneexhibit { grid-area: 1 / 3 / 2 / 4; }
+.Eliasexhibit { grid-area: 2 / 1 / 3 / 2; }
+.Celesteexhibit { grid-area: 2 / 3 / 3 / 4; }
+.Lenoraexhibit { grid-area: 2 / 2 / 3 / 3;}
+ 
+
+#Gallery img {
+    width: 70%;
+}
+
+
+/*---EXHIBITION STATEMENTS---*/
+.Exhibitionstatements {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 6px;
+    padding: 1%;
+    }
+    
+.Theostatement { grid-area: 1 / 1 / 2 / 2; }
+.Jasperstatement { grid-area: 1 / 2 / 2 / 3; }
+.Viviennestatement { grid-area: 1 / 3 / 2 / 4; }
+.Eliasstatement { grid-area: 2 / 1 / 3 / 2; }
+.Celestestatement { grid-area: 2 / 3 / 3 / 4; }
+ .Exhibitionstatements h2 { grid-area: 2 / 2 / 3 / 3; 
+    font-size: 42px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+
+/*---INITIATION ITEMS---*/
+#InitiationItems {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 6px;
+    padding: 1%;
+    }
+    
+    .Theoitem1 { grid-area: 1 / 1 / 2 / 2; }
+    .Theoitem2 { grid-area: 1 / 2 / 2 / 3; }
+    .Lenoraitem { grid-area: 1 / 3 / 2 / 4; }
+    .Jasperitem { grid-area: 2 / 1 / 3 / 2; }
+    .Vivienneitem { grid-area: 2 / 3 / 3 / 4; }
+    .Eliasitem { grid-area: 2 / 2 / 3 / 3; }
+    .Celesteitem { grid-area: 3 / 2 / 4 / 3; }
