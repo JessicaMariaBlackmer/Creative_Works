@@ -286,52 +286,53 @@ h1 {
 }
 #digitalart {
 display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 10px;
+grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 10px;
 grid-row-gap: 10px;
-padding-top: 5%;
-margin: 5%;
+padding: 20px;
 }
 #digitalart img{
-    width: 100%;
+    width: 70%;
 }
-.art-piece1 { grid-area: 1 / 1 / 2 / 2; }
-.art-piece4 { grid-area: 1 / 2 / 2 / 3; }
-.art-piece5 { grid-area: 2 / 1 / 3 / 2; }
-.art-piece7 { grid-area: 2 / 2 / 3 / 3; }
+
 
 #graphicdesign {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 10px;
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 10px;
 grid-row-gap: 10px;
-padding-top: 5%;
-margin: 5%;
+padding: 20px;
 }
 #graphicdesign img{
-    width: 100%;
+    width: 70%;
 }
-.art-piece2 { grid-area: 1 / 1 / 2 / 2; }
-.art-piece3 { grid-area: 1 / 2 / 2 / 3; }
-.art-piece6 { grid-area: 1 / 3 / 2 / 4; }
+
 
 #posters {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 10px;
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 10px;
 grid-row-gap: 10px;
-padding-top: 5%;
-margin: 5%;
+padding: 20px;
 }
 #posters img{
-    width: 100%;
+    width: 70%;
 }
-.art-piece8 { grid-area: 1 / 1 / 2 / 2; }
-.art-piece9 { grid-area: 1 / 2 / 2 / 3; }
-.art-piece10 { grid-area: 1 / 3 / 2 / 4; }
+
+#sketches {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    grid-column-gap: 10px;
+grid-row-gap: 10px;
+padding: 20px;
+}
+#sketches img{
+    width: 70%;
+}
 
 /*---DOLL GET TO KNOW ME!---*/
 
@@ -403,6 +404,7 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 2%;
+    z-index: 1000;
 
 }
 footer p {
