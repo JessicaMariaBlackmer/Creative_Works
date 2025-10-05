@@ -416,3 +416,29 @@ footer p {
     font-style: normal;
     color:rgb(34, 27, 68);
 }
+/* Digital Media */
+
+#digitalmedia {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(195,210,229);
+    padding-bottom: 50px;
+}
+#digitalmedia h1 {
+    text-align: center;
+    margin: 1%;
+    font-size: 72px;
+}
+#digitalmedia p {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color:rgb(119, 111, 170);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
